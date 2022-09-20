@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chris Ng's Portfolio</title> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="image/dev-chris.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Chris Ng Kai Xing</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro"> SOFTWARE DEVELOPER</p>
+            <img src="image/dev-chris-03.jpg" alt="a picture of Chris Ng smiling" class="intro__img">
+        </section>
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Mobile Application Development</h3>
+                    <p>Involved in developing, maintaining, and supporting new/ existing mobile applications following the MVC and OOP practices. Ensure all source codes are optimized, written, and documented in compliance with the company’s quality assurance standard.</p>
+                    <p>Resolved more than 50 bugs within the half-year internship period and handle assigned tasks with minimal supervision.</p>
+                    <p>Involved in GetX State Enhancement on People & Directory and Notification Screen.</p>
+                    <p>Technologies used: Dart, Flutter Framework</p>
+                </div>   <!-- / service -->
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>Development of TRON Alice - A TRON-Based E-Voting System as my final year project during my undergraduate program.</p>
+                    <p>Technologies used: JavaScript, Solidity, React.js Framework</p>
+                </div>   <!-- / service -->
+            </div>   <!-- / services -->
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Fresh Graduate Software Developer</p>
+            <div class="about-me__body">
+                <p>I am a <strong>fresh university graduate</strong> actively looking for an available position for an <strong>entry-level</strong> as <strong>mobile/ web or software developer</strong>.</p>
+                <p>During the <strong>half a year</strong> of internship experience as a <strong>front-end mobile application developer</strong> in Vimigo Technologies, I've been involved in maintaining, developing, and supporting new or existing performance reward system mobile applications, using <strong>dart programming language</strong> with the <strong>Flutter framework</strong>. Moreover, I've been trained to utilize the <strong>version control system</strong>, <strong>SourceTree</strong> to maintain the repository, project tracking software, and <strong>Jira</strong> to allow bug tracking and agile project management.</p>
+                <p>I wish to learn, upskill & acquire skills that can shape me as a valued professional & contributed team player in the industry. I can work in a fast-paced environment. My objective is to work with an organization that can provide me the opportunity to make my skills & knowledge.</p>
+            </div>
+            <img src="image/dev-chris-02.jpg" alt="a picture of Chris Ng smiling" class="about-me__image">
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="#work" class="portfolio__item">
+                    <img src="image/portfolio-01.jpeg" alt="" class="portfolio__image">
+                </a>
+
+                <!-- Portfolio item 02 -->
+                <a href="#work" class="portfolio__item">
+                    <img src="image/portfolio-02.jpeg" alt="" class="portfolio__image">
+                </a>
+
+                <!-- Portfolio item 03 -->
+                <a href="#work" class="portfolio__item">
+                    <img src="image/portfolio-03.jpeg" alt="" class="portfolio__image">
+                </a>
+
+                <!-- Portfolio item 04 -->
+                <a href="#work" class="portfolio__item">
+                    <img src="image/portfolio-04.jpeg" alt="" class="portfolio__image">
+                </a>
+
+                <!-- Portfolio item 05 -->
+                <a href="#work" class="portfolio__item">
+                    <img src="image/portfolio-05.jpeg" alt="" class="portfolio__image">
+                </a>
+
+                <!-- Portfolio item 06 -->
+                <a href="#work" class="portfolio__item">
+                    <img src="image/portfolio-06.jpeg" alt="" class="portfolio__image">
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <a href="mailto:chrisng.bcs@gmail.com" class="footer__link">chrisng.bcs@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a href="https://www.facebook.com/profile.php?id=100001680721435" class="social-list__link"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://www.linkedin.com/in/chrisngkx/" class="social-list__link"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://github.com/chrisng98" class="social-list__link"><i class="fab fa-github"></i></a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+
+
+</html>
